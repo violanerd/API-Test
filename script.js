@@ -1,7 +1,8 @@
+var apiKey = "";
 
 function getAPIdata () { 
 
-    var url = "";
+    var url = "" + apiKey; //depends on how the api wants it 
 
     fetch(url)
         .then(function(response) {
